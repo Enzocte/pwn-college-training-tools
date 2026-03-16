@@ -1,0 +1,6 @@
+from Crypto.Util.strxor import strxor
+
+enc = bytes.fromhex("18ee00d1d162fc881f003d4d7bf27099bc79bf0dd8333de54e3de08b975c92e42efb8faaf1a6956b64e69876ee460682a1f1e18ebd900e4d354b1a6e")
+key = bytes.fromhex("68996effb20d90e47a6758362aa63de9d54cee64ec01719f39768adec76edfa879d6dbdf86f3e04535bea815940b7cf5f2bed5e5d7dd3f084f1c6764")
+
+print(strxor(enc, key))

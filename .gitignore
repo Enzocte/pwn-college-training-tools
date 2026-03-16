@@ -1,0 +1,18 @@
+# binaries
+a.out
+*.out
+*.o
+
+# python
+__pycache__/
+*.pyc
+
+# editors
+.vscode/
+.idea/
+
+# local junk
+.local/
+Downloads/
+response.txt
+response2.txt
